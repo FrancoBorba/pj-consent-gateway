@@ -1,0 +1,166 @@
+{
+  "data": [
+    {
+      "transactionId": "TXITA001",
+      "creditDebitType": "CREDITO",
+      "transactionName": "RECEBIMENTO CONTRATO SERVICO A",
+      "type": "TED",
+      "transactionAmount": { "amount": 15000.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-01T09:30:00Z",
+      "partie": {
+        "partieCnpjCpf": "11223344556677",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "98765432",
+        "partieCheckDigit": "0"
+      }
+    },
+    {
+      "transactionId": "TXITA002",
+      "creditDebitType": "DEBITO",
+      "transactionName": "PAGAMENTO AGUA",
+      "type": "PIX",
+      "transactionAmount": { "amount": 300.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-01T15:00:00Z",
+      "partie": {
+        "partieCnpjCpf": "55443322110099",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "33445566",
+        "partieCheckDigit": "7"
+      }
+    },
+    {
+      "transactionId": "TXITA003",
+      "creditDebitType": "DEBITO",
+      "transactionName": "SALARIOS FUNCIONARIOS",
+      "type": "TED",
+      "transactionAmount": { "amount": 22000.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-02T17:20:00Z",
+      "partie": {
+        "partieCnpjCpf": "11223344000199",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "44556677",
+        "partieCheckDigit": "8"
+      }
+    },
+    {
+      "transactionId": "TXITA004",
+      "creditDebitType": "CREDITO",
+      "transactionName": "RECEBIMENTO CLIENTE B",
+      "type": "PIX",
+      "transactionAmount": { "amount": 9700.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-03T11:10:00Z",
+      "partie": {
+        "partieCnpjCpf": "99887766554400",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "22334455",
+        "partieCheckDigit": "4"
+      }
+    },
+    {
+      "transactionId": "TXITA005",
+      "creditDebitType": "DEBITO",
+      "transactionName": "IMPOSTO MUNICIPAL",
+      "type": "BOLETO",
+      "transactionAmount": { "amount": 1250.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-04T08:40:00Z",
+      "partie": {
+        "partieCnpjCpf": "44556677889900",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "66778899",
+        "partieCheckDigit": "1"
+      }
+    },
+    {
+      "transactionId": "TXITA006",
+      "creditDebitType": "DEBITO",
+      "transactionName": "PAGAMENTO CONTABILIDADE",
+      "type": "PIX",
+      "transactionAmount": { "amount": 1400.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-05T16:00:00Z",
+      "partie": {
+        "partieCnpjCpf": "22331100998877",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "77889900",
+        "partieCheckDigit": "5"
+      }
+    },
+    {
+      "transactionId": "TXITA007",
+      "creditDebitType": "CREDITO",
+      "transactionName": "VENDA PRODUTOS CLIENTE C",
+      "type": "TED",
+      "transactionAmount": { "amount": 13400.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-06T14:25:00Z",
+      "partie": {
+        "partieCnpjCpf": "88990011223300",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "11221122",
+        "partieCheckDigit": "6"
+      }
+    },
+    {
+      "transactionId": "TXITA008",
+      "creditDebitType": "DEBITO",
+      "transactionName": "ALUGUEL ESCRITORIO",
+      "type": "PIX",
+      "transactionAmount": { "amount": 5800.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-07T10:05:00Z",
+      "partie": {
+        "partieCnpjCpf": "11002200334455",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "33445577",
+        "partieCheckDigit": "2"
+      }
+    },
+    {
+      "transactionId": "TXITA009",
+      "creditDebitType": "CREDITO",
+      "transactionName": "RECEBIMENTO SERVICO CLIENTE D",
+      "type": "PIX",
+      "transactionAmount": { "amount": 7600.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-08T09:50:00Z",
+      "partie": {
+        "partieCnpjCpf": "66778899001122",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "22332211",
+        "partieCheckDigit": "9"
+      }
+    },
+    {
+      "transactionId": "TXITA010",
+      "creditDebitType": "DEBITO",
+      "transactionName": "COMPRA EQUIPAMENTOS TI",
+      "type": "TED",
+      "transactionAmount": { "amount": 9200.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-09T15:30:00Z",
+      "partie": {
+        "partieCnpjCpf": "33445566778899",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "341",
+        "partieBranchCode": "1234",
+        "partieNumber": "55667788",
+        "partieCheckDigit": "0"
+      }
+    }
+  ],
+  "links": { "self": "https://api.itau.com.br/open-banking/api/v1/transactions" },
+  "meta": { "totalRecords": 10, "totalPages": 1 }
+}

@@ -1,0 +1,168 @@
+{
+  "data": [
+    {
+      "transactionId": "TXNUBA001",
+      "completedAuthorisedPaymentType": "TRANSACAO_EFETIVADA",
+      "creditDebitType": "DEBITO",
+      "transactionName": "PAGAMENTO DE ENERGIA ELETRICA",
+      "type": "PIX",
+      "transactionAmount": { "amount": 450.75, "currency": "BRL" },
+      "transactionDateTime": "2025-09-01T10:15:00Z",
+      "partie": {
+        "partieCnpjCpf": "43908445778",
+        "partiePersonType": "PESSOA_NATURAL",
+        "partieCompeCode": "260",
+        "partieBranchCode": "0001",
+        "partieNumber": "12345678",
+        "partieCheckDigit": "9"
+      }
+    },
+    {
+      "transactionId": "TXNUBA002",
+      "completedAuthorisedPaymentType": "TRANSACAO_EFETIVADA",
+      "creditDebitType": "CREDITO",
+      "transactionName": "RECEBIMENTO CLIENTE X",
+      "type": "PIX",
+      "transactionAmount": { "amount": 12500.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-01T14:35:00Z",
+      "partie": {
+        "partieCnpjCpf": "10293847560001",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "260",
+        "partieBranchCode": "0001",
+        "partieNumber": "87654321",
+        "partieCheckDigit": "5"
+      }
+    },
+    {
+      "transactionId": "TXNUBA003",
+      "creditDebitType": "DEBITO",
+      "transactionName": "PAGAMENTO DE INTERNET",
+      "type": "BOLETO",
+      "transactionAmount": { "amount": 320.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-02T08:45:00Z",
+      "partie": {
+        "partieCnpjCpf": "22334455667788",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "260",
+        "partieBranchCode": "0001",
+        "partieNumber": "33445566",
+        "partieCheckDigit": "2"
+      }
+    },
+    {
+      "transactionId": "TXNUBA004",
+      "creditDebitType": "DEBITO",
+      "transactionName": "SALARIOS FUNCIONARIOS",
+      "type": "TED",
+      "transactionAmount": { "amount": 18000.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-03T17:00:00Z",
+      "partie": {
+        "partieCnpjCpf": "98765432100",
+        "partiePersonType": "PESSOA_NATURAL",
+        "partieCompeCode": "260",
+        "partieBranchCode": "0001",
+        "partieNumber": "99887766",
+        "partieCheckDigit": "3"
+      }
+    },
+    {
+      "transactionId": "TXNUBA005",
+      "creditDebitType": "DEBITO",
+      "transactionName": "PAGAMENTO DE IMPOSTO FEDERAL",
+      "type": "PIX",
+      "transactionAmount": { "amount": 3500.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-04T09:30:00Z",
+      "partie": {
+        "partieCnpjCpf": "00000000000191",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "001",
+        "partieBranchCode": "0001",
+        "partieNumber": "11112222",
+        "partieCheckDigit": "4"
+      }
+    },
+    {
+      "transactionId": "TXNUBA006",
+      "creditDebitType": "CREDITO",
+      "transactionName": "VENDA ONLINE CLIENTE Y",
+      "type": "PIX",
+      "transactionAmount": { "amount": 8900.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-05T12:15:00Z",
+      "partie": {
+        "partieCnpjCpf": "1928374650001",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "260",
+        "partieBranchCode": "0001",
+        "partieNumber": "12344321",
+        "partieCheckDigit": "8"
+      }
+    },
+    {
+      "transactionId": "TXNUBA007",
+      "creditDebitType": "DEBITO",
+      "transactionName": "COMPRA MATERIAL ESCRITORIO",
+      "type": "PIX",
+      "transactionAmount": { "amount": 750.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-06T10:10:00Z",
+      "partie": {
+        "partieCnpjCpf": "55667788990012",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "033",
+        "partieBranchCode": "0001",
+        "partieNumber": "44556677",
+        "partieCheckDigit": "6"
+      }
+    },
+    {
+      "transactionId": "TXNUBA008",
+      "creditDebitType": "CREDITO",
+      "transactionName": "RECEBIMENTO SERVICO CLIENTE Z",
+      "type": "TED",
+      "transactionAmount": { "amount": 6400.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-07T11:50:00Z",
+      "partie": {
+        "partieCnpjCpf": "66778899000122",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "104",
+        "partieBranchCode": "2222",
+        "partieNumber": "55667788",
+        "partieCheckDigit": "7"
+      }
+    },
+    {
+      "transactionId": "TXNUBA009",
+      "creditDebitType": "DEBITO",
+      "transactionName": "ALUGUEL ESCRITORIO",
+      "type": "PIX",
+      "transactionAmount": { "amount": 5200.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-08T09:00:00Z",
+      "partie": {
+        "partieCnpjCpf": "88990011223344",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "033",
+        "partieBranchCode": "0001",
+        "partieNumber": "99882211",
+        "partieCheckDigit": "1"
+      }
+    },
+    {
+      "transactionId": "TXNUBA010",
+      "creditDebitType": "CREDITO",
+      "transactionName": "VENDA CLIENTE W",
+      "type": "PIX",
+      "transactionAmount": { "amount": 7100.00, "currency": "BRL" },
+      "transactionDateTime": "2025-09-09T13:40:00Z",
+      "partie": {
+        "partieCnpjCpf": "99887766554433",
+        "partiePersonType": "PESSOA_JURIDICA",
+        "partieCompeCode": "260",
+        "partieBranchCode": "0001",
+        "partieNumber": "22334455",
+        "partieCheckDigit": "0"
+      }
+    }
+  ],
+  "links": { "self": "https://api.nubank.com.br/open-banking/api/v1/transactions" },
+  "meta": { "totalRecords": 10, "totalPages": 1 }
+}
