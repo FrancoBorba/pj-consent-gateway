@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.Gateway.PJ.dto.TransactionResponseDTO;
 
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -18,12 +17,13 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 public interface BankMockControllerDocs {
     
      @Operation(
-    summary = "Find transaction in Bank A",
+    summary = "Find transaction in Bank B",
+    description = "This endpoint returns all transactions from a simulated bank " ,
     responses = {
          @ApiResponse(description = "Success" , responseCode = "200" ,
      content = {
       @Content( mediaType = MediaType.APPLICATION_JSON_VALUE,
-     array = @ArraySchema(schema = @Schema(implementation = TransactionResponseDTO.class)))}),
+          schema = @Schema(implementation = TransactionResponseDTO.class))}),
       @ApiResponse(description = "No content" , responseCode = "204" , content = @Content),
       @ApiResponse(description = "Bad request" , responseCode = "400" , content = @Content),
       @ApiResponse(description = "Unatorizhed" , responseCode = "401" , content = @Content),
@@ -34,12 +34,13 @@ public interface BankMockControllerDocs {
    public TransactionResponseDTO getTransactionsOfBankB(@PathVariable String accountId);
     
      @Operation(
-    summary = "Find transaction in Bank B",
+    summary = "Find transaction in Bank A",
+        description = "This endpoint returns all transactions from a simulated bank " ,
     responses = {
          @ApiResponse(description = "Success" , responseCode = "200" ,
      content = {
       @Content( mediaType = MediaType.APPLICATION_JSON_VALUE,
-     array = @ArraySchema(schema = @Schema(implementation = TransactionResponseDTO.class)))}),
+          schema = @Schema(implementation = TransactionResponseDTO.class))}),
       @ApiResponse(description = "No content" , responseCode = "204" , content = @Content),
       @ApiResponse(description = "Bad request" , responseCode = "400" , content = @Content),
       @ApiResponse(description = "Unatorizhed" , responseCode = "401" , content = @Content),

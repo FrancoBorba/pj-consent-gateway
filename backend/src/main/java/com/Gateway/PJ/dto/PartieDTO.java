@@ -21,7 +21,7 @@ public class PartieDTO {
     @NotNull
     String partieBranchCode;
 
-    //Phone Number
+   
     @NotBlank
     String partieNumber;
 
